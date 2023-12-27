@@ -1,0 +1,54 @@
+* {
+  font-family: "Kanit", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.background1 {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background-image: url("img/breakingbd.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  /*background images are behind the content */
+  filter: blur(3px);
+}
+
+.background2 {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 50%;
+  background-image: url("img/homelander.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  /*background images are behind the content */
+  filter: blur(3px);
+}
+
+.content {
+  position: relative;
+  /*content is positioned relative to the backgrounds */
+  z-index: 1;
+  /*content is on top of the background images */
+}
+
+.btn-custom {
+  background-color: #c52424;
+  color: white;
+}
+
+.lead {
+  color: rgb(7, 7, 7);
+  font: bold;
+}
+
+.button {
+  padding: 10px;
+  margin: 15px;
+  border-radius: 20px;
+}

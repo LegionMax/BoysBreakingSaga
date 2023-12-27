@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Breaking Bad</title>
+     <link rel="icon" href="/img/favicon.svg" type="image/x-icon" />
+
+     <!--custom css link-->
+     <link rel="stylesheet" href="style.css" />
+
+     <!--boxicons link-->
+     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+
+     <!--remix icons-->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+     <!--google fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500;1,600&display=swap"
+          rel="stylesheet" />
+</head>
+
+<body>
+     <header>
+          <a href="#" class="logo">Breaking Bad</a>
+
+          <ul class="navlist">
+               <li><a href="#">Home</a></li>
+               <li><a href="#" onclick="scrollToStars()">Stars</a></li>
+               <li><a href="#" onclick="scrollToGallery()">Gallery</a></li>
+               <li><a href="#" onclick="scrollToQuotes()">Quotes</a></li>
+               <li><a href="#">About</a></li>
+          </ul>
+
+          <div class="bx bx-menu" id="menu-icon"></div>
+     </header>
+
+     <section class="hero">
+          <div class="hero-text">
+               <h4>Heisenberg</h4>
+               <h1>Say My Name!</h1>
+               <p>
+                    You clearly don’t know who you’re talking to, so let me clue you in. I
+                    am not in danger, Skyler. I am the danger.
+               </p>
+               <a href="#">Blue Meth</a>
+               <a href="#" class="ctaa"><i class="ri-play-fill"></i>Crystal Meth</a>
+          </div>
+
+          <div class="hero-img">
+               <img src="img/logo.png" alt="Breakingbad" />
+          </div>
+     </section>
+
+     <div class="icons">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-facebook-circle-line"></i></a>
+          <a href="#"><i class="ri-twitter-line"></i></a>
+     </div>
+
+     <div class="scroll-down">
+          <a href="#"><i class="ri-arrow-down-s-fill"></i></a>
+     </div>
+
+     <div class="container" id="Stars">
+          <h2 class="title">Star Characters</h2>
+
+          <div class="character-grid">
+               <!-- Character Profile: Walter White -->
+               <div class="character-card">
+                    <img src="img/walter1.png" class="character-img" alt="Walter White" />
+                    <div class="character-info">
+                         <h3 class="character-name">Walter White</h3>
+                         <p class="character-description">
+                              High school chemistry teacher turned methamphetamine manufacturer.
+                              Walter, once a mild-mannered family man, transforms into the
+                              ruthless Heisenberg as he navigates the dangerous world of drugs
+                              to secure his family's future.
+                         </p>
+                    </div>
+               </div>
+
+               <!-- Character Profile: Jesse Pinkman -->
+
+               <div class="character-card">
+                    <img src="img/pinkman.png" class="character-img" alt="Jesse Pinkman" />
+                    <div class="character-info">
+                         <h3 class="character-name">Jesse Pinkman</h3>
+                         <p class="character-description">
+                              Former student and small-time methamphetamine producer. Known for
+                              his street-smart personality, colorful language, and a heart that
+                              sometimes conflicts with his involvement in the drug trade.
+                         </p>
+                    </div>
+               </div>
+
+               <!-- Character Profile: Saul Goodman -->
+
+               <div class="character-card">
+                    <img src="img/saul.png" class="character-img" alt="Saul Goodman" />
+                    <div class="character-info">
+                         <h3 class="character-name">Saul Goodman</h3>
+                         <p class="character-description">
+                              Criminal lawyer with a knack for colorful advertising and morally
+                              flexible legal practices. Known for his catchphrase "Better Call
+                              Saul," he's the go-to guy when you need creative solutions to
+                              legal problems.
+                         </p>
+                    </div>
+               </div>
+
+               <!-- Character Profile: Hank Schrader -->
+
+               <div class="character-card">
+                    <img src="img/hank.png" class="character-img" alt="Hank Schrader" />
+                    <div class="character-info">
+                         <h3 class="character-name">Hank Schrader</h3>
+                         <p class="character-description">
+                              Dedicated DEA agent with a tough exterior and a passion for
+                              catching criminals. Hank is Walter White's brother-in-law and
+                              finds himself in the midst of the dangerous drug trade.
+                         </p>
+                    </div>
+               </div>
+
+               <!-- Character Profile: Skyler White -->
+
+               <div class="character-card">
+                    <img src="img/skyler1.png" class="character-img" alt="Skyler White" />
+                    <div class="character-info">
+                         <h3 class="character-name">Skyler White</h3>
+                         <p class="character-description">
+                              Wife of Walter White and initially unaware of his involvement in
+                              the drug trade. Skyler is a strong-willed woman who becomes
+                              entangled in Walter's criminal activities as she discovers the
+                              truth.
+                         </p>
+                    </div>
+               </div>
+
+               <!-- Character Profile: Gus Fring -->
+               <div class="character-card">
+                    <img src="img/gus.png" class="character-img" alt="Gus Fring" />
+                    <div class="character-info">
+                         <h3 class="character-name">Gustavo Fring</h3>
+                         <p class="character-description">
+                              Meticulous and enigmatic drug lord, owner of Los Pollos Hermanos,
+                              a fast-food restaurant that serves as a front for his drug
+                              distribution network. Gus Fring is known for his calm demeanor,
+                              strategic mind, and ruthless pursuit of power.
+                         </p>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div class="gallery-container" id="Gallery">
+          <h2 class="gallery-title">Photo Gallery</h2>
+
+          <div class="gallery-grid">
+               <!-- Gallery Item 1 -->
+               <div class="gallery-item">
+                    <img src="img/gallary1.png" alt="Gallery Image 1" />
+               </div>
+
+               <!-- Gallery Item 2 -->
+               <div class="gallery-item">
+                    <img src="img/gallary2.jpg" alt="Gallery Image 2" />
+               </div>
+
+               <!-- Gallery Item 3 -->
+               <div class="gallery-item">
+                    <img src="img/gallary3.png" alt="Gallery Image 3" />
+               </div>
+
+               <!-- Gallery Item 4 -->
+               <div class="gallery-item">
+                    <img src="img/gallary4.png" alt="Gallery Image 4" />
+               </div>
+
+               <!-- Gallery Item 5 -->
+               <div class="gallery-item">
+                    <img src="img/gallary5.jpg" alt="Gallery Image 5" />
+               </div>
+
+               <!-- Gallery Item 6 -->
+               <div class="gallery-item">
+                    <img src="img/gallary6.jpg" alt="Gallery Image 6" />
+               </div>
+          </div>
+     </div>
+
+     <!--  Quote Generator Section -->
+     <div class="quote-generator-container" id="Quotes">
+          <h2 class="quote-generator-title">Breaking Bad Wisdom</h2>
+          <p class="quote-description">
+               Epic Dialauges from breaking Bad Characters
+          </p>
+          <p class="quote" id="quote-text">Click the button to get a quote!</p>
+          <button class="btn" id="generate-btn">Get Wisdom</button>
+     </div>
+
+     <!-- Credit Section -->
+     <div class="credit-section" id="creditSection" style="display: none">
+          <p class="credit-text">
+               Created by <span class="your-name">Manish Kumar</span>
+          </p>
+     </div>
+     <button class="toggle-credit-btn" onclick="toggleCredit()">Credit</button>
+
+     <!-- Footer Section -->
+     <footer class="footer">
+          <div class="footer-content">
+               <p class="footer-text">
+                    © 2023 Breaking Bad Fan | All rights reserved | Created By Manish
+                    Kumar
+               </p>
+               <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="ri-instagram-line"></i></a>
+                    <a href="#" class="social-icon"><i class="ri-facebook-circle-line"></i></a>
+                    <a href="#" class="social-icon"><i class="ri-twitter-line"></i></a>
+               </div>
+          </div>
+     </footer>
+
+     <!--scroll reveal effect-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!--custom js link-->
+     <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <title>Homelander</title>
+
+     <!--Fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;1,400&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap"
+          rel="stylesheet" />
+
+     <link rel="icon" href="img/Homelander-S3.webp" type="image/x-icon" />
+
+     <!-- Bootstrap CDN -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" />
+     <!-- Custom CSS -->
+     <link rel="stylesheet" href="style.css" />
+     <!--custom js-->
+     <script src="script.js"></script>
+</head>
+
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+                    <img src="img/Homelander.webp" alt="Logo" width="60" height="50" />
+                    Homelander
+               </a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                         <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#" onclick="scrollToStars()">Stars</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#" onclick="scrollToGallery()">Gallery</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link" href="#">Contact</a>
+                         </li>
+                    </ul>
+               </div>
+          </div>
+     </nav>
+     <!-- Carousel -->
+     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-inner">
+               <div class="carousel-item active">
+                    <img src="img/img1.jpg" class="d-block w-100" alt="Homelander flying" />
+                    <div class="carousel-caption d-none d-md-block text-center" style="margin-bottom: 20%">
+                         <h1>Homelander - The World's Greatest Superhero</h1>
+                         <p>
+                              Homelander is the leader of The Seven and the most powerful
+                              superhuman in the world. He can fly, shoot lasers from his eyes,
+                              and withstand any attack. He is the ultimate protector of America
+                              and humanity.
+                         </p>
+                    </div>
+               </div>
+               <div class="carousel-item">
+                    <img src="img/img2.jpg" class="d-block w-100" alt="Homelander smiling" />
+                    <div class="carousel-caption d-none d-md-block text-center" style="margin-bottom: 20%">
+                         <h1>Homelander - The World's Most Beloved Hero</h1>
+                         <p>
+                              Homelander is not only a superhero, but also a celebrity and a
+                              role model. He is adored by millions of fans and admired by his
+                              fellow heroes. He is charming, charismatic, and compassionate.
+                         </p>
+                    </div>
+               </div>
+               <div class="carousel-item">
+                    <img src="img/img3.jpg" class="d-block w-100" alt="Homelander angry" />
+                    <div class="carousel-caption d-none d-md-block text-center" style="margin-bottom: 20%">
+                         <h1>Homelander - The World's Most Feared Hero</h1>
+                         <p>
+                              Homelander is not someone you want to mess with. He is ruthless,
+                              unpredictable, and violent. He has no mercy for his enemies and no
+                              tolerance for disobedience. He is the ultimate authority and the
+                              final judge.
+                         </p>
+                    </div>
+               </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+          </button>
+     </div>
+
+     <!-- Cards -->
+     <h1 class="pt-md-5 text-center" id="Stars">Star Characters</h1>
+     <div class="container">
+          <div class="row">
+               <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                         <img src="img/Homelander-S3.webp" class="card-img-top" alt="Homelander" />
+                         <div class="card-body">
+                              <h5 class="card-title">Homelander</h5>
+                              <p class="card-text">
+                                   Homelander is the leader of The Seven and the most powerful
+                                   superhuman in the world. He can fly, shoot lasers from his eyes,
+                                   and withstand any attack. He is the ultimate protector of
+                                   America and humanity.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                         <img src="img/Starlight.webp" class="card-img-top" alt="Starlight" />
+                         <div class="card-body">
+                              <h5 class="card-title">Starlight</h5>
+                              <p class="card-text">
+                                   Starlight is a member of The Seven and a former member of the
+                                   Young Americans. She can emit powerful blasts of light from her
+                                   hands and eyes. She is a kind, brave, and idealistic hero.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                         <img src="img/BillyButcherPNGImage.png" class="card-img-top" alt="Butcher" />
+                         <div class="card-body">
+                              <h5 class="card-title">Billy Butcher</h5>
+                              <p class="card-text">
+                                   Billy Butcher is the leader of The Boys and a former CIA
+                                   operative. He is a ruthless, cunning, and charismatic vigilante
+                                   who hates all superpowered individuals, especially Homelander.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+               <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                         <img src="img/Hughie-Campbell.webp" class="card-img-top" alt="Hughie" />
+                         <div class="card-body">
+                              <h5 class="card-title">Hughie Campbell</h5>
+                              <p class="card-text">
+                                   Hughie Campbell is a member of The Boys and a former electronics
+                                   store employee. He is a naive, innocent, and reluctant vigilante
+                                   who joins The Boys after his girlfriend is killed by A-Train.
+                              </p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                         <img src="img/Soldier-Boy.webp" class="card-img-top" alt="Soldier-Boy" />
+                         <div class="card-body">
+                              <h5 class="card-title">Soldier Boy</h5>
+                              <p class="card-text">
+                                   Soldier Boy, whose real name is Benjamin, is a major character
+                                   in the The Boys, where he served as one of the main antagonists
+                                   of Season 3. He was America’s first and greatest superhero
+                                   before Homelander and the former leader of the superhero team
+                                   Payback. As a young man, Soldier Boy helped good triumph over
+                                   evil in World War II
+                              </p>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                         <img src="img/Black-Noire.webp" class="card-img-top" alt="Black Noir" />
+                         <div class="card-body">
+                              <h5 class="card-title">Black Noir</h5>
+                              <p class="card-text">
+                                   Black Noir Black Noir, whose real name is Earving. He is a mute,
+                                   darkly costumed superhero and a member of The Seven. Silent,
+                                   stealthy, and enigmatic, Black Noir was The Seven’s superpowered
+                                   ninja. His super strength and heightened senses were matched
+                                   only by his proficiency in the martial arts
+                              </p>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+
+     <div class="gallery-container" id="Gallery">
+          <h2 class="gallery-title">Photo Gallery</h2>
+
+          <div class="gallery-grid">
+               <!-- Gallery Item 1 -->
+               <div class="gallery-item">
+                    <img src="img/img4.jpg" alt="Gallery Image 1" />
+               </div>
+
+               <!-- Gallery Item 2 -->
+               <div class="gallery-item">
+                    <img src="img/butcher-the-boys-power.webp" alt="Gallery Image 2" />
+               </div>
+
+               <!-- Gallery Item 3 -->
+               <div class="gallery-item">
+                    <img src="img/SoliderBoy-With-TheBoys.webp" alt="Gallery Image 3" />
+               </div>
+
+               <!-- Gallery Item 4 -->
+               <div class="gallery-item">
+                    <img src="img/The-boys-20.webp" alt="Gallery Image 4" />
+               </div>
+
+               <!-- Gallery Item 5 -->
+               <div class="gallery-item">
+                    <img src="img/The_Homelander.webp" alt="Gallery Image 5" />
+               </div>
+
+               <!-- Gallery Item 6 -->
+               <div class="gallery-item">
+                    <img src="img/Homelander_in_Gen_V.webp" alt="Gallery Image 6" />
+               </div>
+          </div>
+     </div>
+
+     <!-- Footer Section -->
+     <footer class="footer">
+          <div class="container">
+               <div class="row">
+                    <div class="col-md-4">
+                         <!-- Logo content -->
+                         <a href="#" class="footer-logo">
+                              <img src="img/Homelander.webp" alt="Logo" width="60" height="50" />
+
+                              <span class="text-white">Homelander</span>
+                         </a>
+                    </div>
+                    <div class="col-md-4">
+                         <!-- Navigation content -->
+                         <ul class="list-inline">
+                              <li class="list-inline-item">
+                                   <a href="#" class="text-white">Home</a>
+                              </li>
+
+                              <li class="list-inline-item">
+                                   <a href="#" class="text-white">Stars</a>
+                              </li>
+
+                              <li class="list-inline-item">
+                                   <a href="#" class="text-white">Gallery</a>
+                              </li>
+
+                              <li class="list-inline-item">
+                                   <a href="#" class="text-white">Contact</a>
+                              </li>
+                         </ul>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col-12">
+                         <p class="text-white text-center">
+                              © 2023 Homelander | All rights reserved | Created By Manish Kumar
+                         </p>
+                    </div>
+               </div>
+          </div>
+     </footer>
+
+     <!-- Credit Section -->
+     <div class="credit-section" id="creditSection" style="display: none">
+          <p class="credit-text">
+               Created by <span class="your-name">Manish Kumar</span>
+          </p>
+     </div>
+     <button class="toggle-credit-btn" onclick="toggleCredit()">Credit</button>
+
+     <!-- Bootstrap JS -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
